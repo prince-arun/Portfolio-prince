@@ -37,3 +37,45 @@ header {
   color: rgb(88, 86, 86);
   text-shadow: 1.2px -1.2px 1px darkgray;
 }
+/*-------------------------Hero section-------------------*/
+.hero {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.hero-box {
+  width: 40%;
+}
+.msg-box {
+  font-size: 45px;
+  padding: 10px 10px 20px 0px;
+}
+.fa-message {
+  color: gray;
+  margin: 15px;
+}
+.prince {
+  font-size: 35px;
+  font-weight: 800;
+}
+.fa-crown {
+  color: gray;
+}
+.hero-box h1 {
+  color: rgb(46, 46, 46);
+  font-size: 30px;
+  line-height: 70px;
+  padding-left: 30px;
+}
+.mern {
+  font-size: 35px;
+}
+.hero-box img {
+  width: 300px;
+  margin-left: 30px;
+  border-radius: 50px;
+  transition: 0.7s;
+}
+.hero-box img:hover {
+  border-radius: 50%;
+}
