@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+/*------------------------Header & Nav section--------------*/
+header {
+  height: 100vh;
+  background-image: linear-gradient(
+    174.2deg,
+    rgba(255, 244, 228, 1) 7.1%,
+    rgba(240, 246, 238, 1) 67.4%
+  );
+}
+.nav {
+}
+.nav ul {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-left: 45%;
+}
+.nav ul li {
+  display: inline-block;
+  list-style: none;
+  /* background-color: darkorange; */
+  padding: 20px 30px;
+}
+
+.navigation {
+  text-decoration: none;
+  color: gray;
+  font-size: 25px;
+  font-weight: bold;
+}
+.navigation:hover {
+  color: rgb(88, 86, 86);
+  text-shadow: 1.2px -1.2px 1px darkgray;
+}
