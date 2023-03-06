@@ -8,7 +8,13 @@
 header {
   height: 100vh;
   background: rgb(46, 46, 46);
-  position: fixed;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.nav {
+  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
@@ -104,11 +110,76 @@ header {
 }
 /*-----------------------------project section---------------*/
 .project {
-  height: 100vh;
+  min-height: 100vh;
   background: rgb(46, 46, 46);
-  position: relative;
+  position: sticky;
   top: 100vh;
   left: 0;
   z-index: 1;
-  padding-top: 100vh;
+  /* padding-top: 100vh; */
+}
+.project-head {
+  color: white;
+  font-size: 35px;
+  font-weight: 700;
+  padding: 40px 10px;
+  text-align: center;
+}
+.fa-angles-left,
+.fa-angles-right,
+.fa-exclamation {
+  color: rgba(79, 247, 79, 0.658);
+}
+.project-1 {
+  padding-top: 50px;
+  margin: 0 20px;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid white;
+  background-color: rgb(83, 82, 82);
+  border-radius: 20px;
+}
+.container-1 {
+  height: 300px;
+  width: 40%;
+  color: white;
+  line-height: 45px;
+}
+.notesk {
+  text-align: center;
+  color: rgb(42, 170, 239);
+}
+
+.container-1 h2 {
+  font-size: 35px;
+  padding: 10px 10px;
+}
+.container-1 p {
+  font-size: 20px;
+}
+
+.container-1 img {
+  height: 300px;
+  width: 100%;
+  border-radius: 20px;
+  border: 5px solid gray;
+}
+.container-1 img:hover {
+  transform: translate(-3px);
+  box-shadow: 5px 5px 5px gray;
+}
+.fa-html5 {
+  color: rgb(216, 73, 36);
+  font-size: 22px;
+  padding-right: 13px;
+}
+.fa-js {
+  color: rgb(234, 212, 28);
+  font-size: 22px;
+  padding-right: 13px;
+}
+.fa-node {
+  color: rgb(109, 161, 94);
+  font-size: 25px;
 }
