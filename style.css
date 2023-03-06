@@ -7,11 +7,7 @@
 /*------------------------Header & Nav section--------------*/
 header {
   height: 100vh;
-  background-image: linear-gradient(
-    174.2deg,
-    rgba(255, 244, 228, 1) 7.1%,
-    rgba(240, 246, 238, 1) 67.4%
-  );
+  background: rgb(46, 46, 46);
   position: fixed;
   top: 0;
   left: 0;
@@ -26,20 +22,27 @@ header {
 .nav ul li {
   display: inline-block;
   list-style: none;
-  /* background-color: darkorange; */
   padding: 20px 30px;
+  background-color: rgba(128, 128, 128, 0.185);
+  border-radius: 20px;
+  margin-right: 18px;
+  font-size: 25px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+.nav ul li:hover {
+  background-color: rgba(32, 32, 32, 0.521);
+  box-shadow: 2px 2px 2px lightgray;
 }
 
 .navigation {
   text-decoration: none;
-  color: gray;
-  font-size: 25px;
-  font-weight: bold;
+  color: white;
 }
-.navigation:hover {
-  color: rgb(88, 86, 86);
-  text-shadow: 1.2px -1.2px 1px darkgray;
+.navigation:checked {
+  color: yellow;
 }
+
 /*-------------------------Hero section-------------------*/
 .hero {
   margin-top: 30px;
@@ -48,14 +51,18 @@ header {
 }
 .hero-box {
   width: 40%;
+  margin-top: 70px;
 }
 .msg-box {
   font-size: 45px;
   padding: 10px 10px 20px 0px;
 }
-.fa-message {
-  color: gray;
-  margin: 15px;
+.fa-code {
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: 50px;
+  font-weight: 700;
+  color: rgb(226, 95, 50);
 }
 .prince {
   font-size: 35px;
@@ -65,19 +72,32 @@ header {
   color: gray;
 }
 .hero-box h1 {
-  color: rgb(46, 46, 46);
-  font-size: 30px;
-  line-height: 70px;
+  color: white;
+  font-size: 40px;
+  line-height: 60px;
   padding-left: 30px;
+  margin-top: 10px;
 }
 .mern {
   font-size: 35px;
 }
+.M {
+  color: rgb(89, 151, 54);
+}
+.E {
+  color: rgb(158, 157, 157);
+}
+.R {
+  color: rgb(1, 215, 254);
+}
+.N {
+  color: rgb(109, 174, 69);
+}
 .hero-box img {
-  width: 300px;
-  margin-left: 30px;
+  width: 350px;
+  margin-left: 50px;
   border-radius: 50px;
-  transition: 0.7s;
+  transition: 0.5s;
 }
 .hero-box img:hover {
   border-radius: 50%;
@@ -85,7 +105,7 @@ header {
 /*-----------------------------project section---------------*/
 .project {
   height: 100vh;
-  background: lightgray;
+  background: rgb(46, 46, 46);
   position: relative;
   top: 100vh;
   left: 0;
