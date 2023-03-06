@@ -12,9 +12,12 @@ header {
     rgba(255, 244, 228, 1) 7.1%,
     rgba(240, 246, 238, 1) 67.4%
   );
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
-.nav {
-}
+
 .nav ul {
   padding-top: 20px;
   padding-bottom: 10px;
@@ -79,4 +82,13 @@ header {
 .hero-box img:hover {
   border-radius: 50%;
 }
-/*-----------------------------product section---------------*/
+/*-----------------------------project section---------------*/
+.project {
+  height: 100vh;
+  background: lightgray;
+  position: relative;
+  top: 100vh;
+  left: 0;
+  z-index: 1;
+  padding-top: 100vh;
+}
