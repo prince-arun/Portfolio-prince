@@ -132,7 +132,8 @@ header {
 }
 .project-1 {
   padding-top: 50px;
-  margin: 0 20px;
+  padding-bottom: 20px;
+  margin: 20px 20px;
   height: 400px;
   display: flex;
   justify-content: space-around;
@@ -181,5 +182,30 @@ header {
 }
 .fa-node {
   color: rgb(109, 161, 94);
+  font-size: 25px;
+}
+.maleFashion {
+  color: black;
+  text-shadow: 2px -5px 2px rgb(175, 174, 174);
+  text-align: center;
+}
+.fa-shopify {
+  color: rgb(142, 181, 69);
+  margin-left: 10px;
+}
+.kryptova {
+  color: rgb(156, 76, 221);
+  text-align: center;
+  border-left: 2px solid white;
+  border-bottom: 2px solid white;
+  border-bottom-left-radius: 15px;
+}
+.kryptova:hover {
+  transform: translateY(-5px);
+  box-shadow: -4px 4px 5px rgb(190, 188, 188);
+}
+.fa-ethereum {
+  color: rgb(48, 46, 109);
+  margin-left: 10px;
   font-size: 25px;
 }
